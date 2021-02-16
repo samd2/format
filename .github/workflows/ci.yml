@@ -291,7 +291,6 @@ jobs:
           COMMENT: ${{ matrix.comment }}
           B2_DEFINES: ${{ matrix.b2_defines }}
           B2_VARIANT: ${{ matrix.b2_variant }}
-          DRONE_EXTRA_PRIVILEGED: ${{ matrix.drone_extra_privileged }}
           B2_LINKFLAGS: ${{ matrix.b2_linkflags }}
           UBSAN_OPTIONS: ${{ matrix.ubsan_options }}
           B2_TESTFLAGS: ${{ matrix.b2_testflags }}
@@ -504,7 +503,6 @@ jobs:
           COMMENT: ${{ matrix.comment }}
           B2_DEFINES: ${{ matrix.b2_defines }}
           B2_VARIANT: ${{ matrix.b2_variant }}
-          DRONE_EXTRA_PRIVILEGED: ${{ matrix.drone_extra_privileged }}
           B2_LINKFLAGS: ${{ matrix.b2_linkflags }}
           UBSAN_OPTIONS: ${{ matrix.ubsan_options }}
           B2_TESTFLAGS: ${{ matrix.b2_testflags }}
